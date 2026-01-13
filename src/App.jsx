@@ -23,25 +23,30 @@ function App() {
   }
 
   return (
-    <header className="head">
-      <h1 className="logo">OLEY</h1>
+    <>
+      <header className="head">
+        <h1 className="logo">OLEY</h1>
 
-      <div className="headBottomMenu">
-        <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
-          aboutme
-        </span>
-        <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
-          projects
-        </span>
-        <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
-          fun
-        </span>
-        <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
-          :) 0_0 ^_^ :D ;] xD :P :3 T_T :'( :o O.o @_@ :/ :v -_- ¬_¬ ಠ_ಠ :) 0_0
-          ^_^ :D ;] xD :P :3 T_T :'( :o O.o @_@ :/ :v -_- ¬_¬ ಠ_ಠ
-        </span>
-      </div>
-    </header>
+        <div className="headBottomMenu">
+          <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
+            aboutme
+          </span>
+          <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
+            projects
+          </span>
+          <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
+            fun
+          </span>
+          <span className={`menu-item tegA ${menuVisible ? "visible" : ""}`}>
+            :) 0_0 ^_^ :D ;] xD :P :3 T_T :'( :o O.o @_@ :/ :v -_- ¬_¬ ಠ_ಠ :)
+            0_0 ^_^ :D ;] xD :P :3 T_T :'( :o O.o @_@ :/ :v -_- ¬_¬ ಠ_ಠ
+          </span>
+        </div>
+      </header>
+      <main>
+        <span>)))</span>
+      </main>
+    </>
   );
 }
 
