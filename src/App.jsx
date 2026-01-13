@@ -1,7 +1,7 @@
 // App.jsx
 import { useState, useEffect } from "react";
 import "./App.css";
-import Preloader from "./components/preloader";
+import Preloader from "./components/Preloader";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
